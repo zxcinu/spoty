@@ -4,7 +4,7 @@ import itertools
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-scope = 'playlist-read-private user-top-read'
+scope = 'playlist-read-private'
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
 
 playlists_tracks = [
